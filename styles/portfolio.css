@@ -42,14 +42,14 @@ p{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    color: white;
+    color: red;
 }
 .head h1{
-    color: beige;
+    color: red;
 }
 .head h2 {
     font-family: var(--default-font-family) ;
-    color: beige;
+    color: red;
     font-weight: normal;
     line-height: 1.5;
     font-size: 24px;
