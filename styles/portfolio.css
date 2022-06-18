@@ -7,7 +7,7 @@
 
 body {
     font-family: var(--default-font-family);
-   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     background-repeat: no-repeat;
      background-size: cover;
       background-attachment: fixed;
@@ -87,7 +87,7 @@ a {
 }
 
 #about{
-    border: 3px solid var(--branding-color);
+    border: 2px solid var(--branding-color);
     border-radius: 50px;
      animation: zoomin 2s linear 1;
     animation-delay: 3s;
@@ -285,7 +285,7 @@ nav.slide-right{
 
 @media(max-width: 900px) {
     h1 {
-        font-size: 60px;
+        font-size: 40px;
         line-height: 2;
     }
     h2{
@@ -301,5 +301,8 @@ nav.slide-right{
     .content-container{
         text-align: center;
         padding: 0;
+    }
+    #about{
+        width: 100;
     }
 }
